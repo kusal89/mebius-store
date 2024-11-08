@@ -1,5 +1,5 @@
 function Greeting() {
-  const name = "Manupa";
+  const name = "Kusalana";
 
   return (
     <div>
