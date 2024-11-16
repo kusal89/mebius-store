@@ -140,8 +140,8 @@ function Products() {
       </div>
 
       <div className="flex mt-4 gap-2">
-        <Button  onClick={handleSortLowToHigh}>Price Low to High</Button>
-        <Button  onClick={handleSortHighToLow}>Price High to Low</Button>
+        <Button  onClick={handleSortLowToHigh}>Sort by price: Ascending</Button>
+        <Button  onClick={handleSortHighToLow}>Sort by price: Descending</Button>
       </div>
       <ProductCards products={sortedProducts()} />
     </section>
